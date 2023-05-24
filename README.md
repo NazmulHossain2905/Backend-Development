@@ -33,6 +33,7 @@ Node js module like set of function.
 **Some built-in modules**
 
 - `fs`
+- `os`
 - `http`
 - `url`
 - `path`

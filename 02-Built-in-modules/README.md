@@ -3,12 +3,13 @@
 **Some built-in modules**
 
 - `fs`
+- `os`
 - `http`
 - `url`
 - `path`
 - etc
 
-### **`fs`** module method
+### **`fs` - File System** module method
 
 ```javascript
 fs.writeFile(); // create a new file
@@ -19,3 +20,20 @@ fs.unlink(); // delete file
 fs.deleteFile();
 fs.exists();
 ```
+
+---
+
+### **`os` - Operating System** module method
+
+```javascript
+os.userInfo();
+os.userInfo().username;
+os.hostname();
+os.platform();
+os.homedir();
+os.totalmem();
+os.freemem();
+// ...more
+```
+
+---
