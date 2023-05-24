@@ -34,9 +34,9 @@ Node js module like set of function.
 
 - `fs`
 - `os`
+- `path`
 - `http`
 - `url`
-- `path`
 - etc
 
 ### **`fs`** module method
@@ -49,4 +49,29 @@ fs.rename();
 fs.unlink(); // delete file
 fs.deleteFile();
 fs.exists();
+```
+
+---
+
+### **`os` - Operating System** module method
+
+```javascript
+os.userInfo();
+os.userInfo().username;
+os.hostname();
+os.platform();
+os.homedir();
+os.totalmem();
+os.freemem();
+// ...more
+```
+
+---
+
+### **`path`** module method
+
+```javascript
+path.resolve("file.js"); // C:\Backend-Development\02-Built-in-modules\file.js
+path.join(__dirname + "/file.js"); // C:\Backend-Development\02-Built-in-modules\file.js
+// ...more
 ```
