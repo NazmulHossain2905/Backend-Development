@@ -4,8 +4,8 @@
 
 _I'm learning backend development._
 
-\***\*Node Js\*\***
+**Node Js**
 
-\***\*Express Js\*\***
+**Express Js**
 
-\***\*MongoDB\*\***
+**MongoDB**
