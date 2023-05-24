@@ -37,3 +37,11 @@ os.freemem();
 ```
 
 ---
+
+### **`path`** module method
+
+```javascript
+path.resolve("file.js"); // C:\Backend-Development\02-Built-in-modules\file.js
+path.join(__dirname + "/file.js"); // C:\Backend-Development\02-Built-in-modules\file.js
+// ...more
+```
