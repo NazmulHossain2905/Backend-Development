@@ -25,3 +25,27 @@ Node js module like set of function.
 - Local modules - (Own created modules)
 - Built in modules/ internal modules - (Node Js own modules -> `http`, `url`, `path` & `fs`). _NB: No need to install these._
 - External modules/ third party modules - (Managed by NPM (Node Package Manager) -> package.json)
+
+---
+
+# **02 - Lesson - Built-in Modules.**
+
+**Some built-in modules**
+
+- `fs`
+- `http`
+- `url`
+- `path`
+- etc
+
+### **`fs`** module method
+
+```javascript
+fs.writeFile(); // create a new file
+fs.readFile();
+fs.appendFile(); // update file
+fs.rename();
+fs.unlink(); // delete file
+fs.deleteFile();
+fs.exists();
+```
