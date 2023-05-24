@@ -4,9 +4,9 @@
 
 - `fs`
 - `os`
+- `path`
 - `http`
 - `url`
-- `path`
 - etc
 
 ### **`fs` - File System** module method
