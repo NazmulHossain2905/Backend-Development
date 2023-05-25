@@ -28,4 +28,4 @@
 
 # **U** = Update - _PUT or PATCH_
 
-# **D** = Delete - _delete_
+# **D** = Delete - _DELETE_
