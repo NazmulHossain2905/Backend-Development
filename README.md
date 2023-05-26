@@ -59,8 +59,6 @@ fs.deleteFile();
 fs.exists();
 ```
 
----
-
 ### **`os` - Operating System** module method
 
 ```javascript
@@ -73,8 +71,6 @@ os.totalmem();
 os.freemem();
 // ...more
 ```
-
----
 
 ### **`path`** module method
 
