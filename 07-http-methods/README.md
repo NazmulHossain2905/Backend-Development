@@ -20,12 +20,12 @@
 
 - DELETE method used for remove/ delete data.
 
-# **C R U D**
+### **C R U D**
 
-# **C** = Create - _POST_
+### **C** = Create - _POST_
 
-# **R** = Read - _GET_
+### **R** = Read - _GET_
 
-# **U** = Update - _PUT or PATCH_
+### **U** = Update - _PUT or PATCH_
 
-# **D** = Delete - _DELETE_
+### **D** = Delete - _DELETE_
