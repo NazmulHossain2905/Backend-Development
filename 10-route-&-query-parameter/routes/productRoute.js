@@ -34,4 +34,16 @@ router.get("/", (req, res) => {
   });
 });
 
+// Get data from Headers
+router.get("/header", (req, res) => {
+  const id = req.header("id");
+  const name = req.header("productName");
+
+  res.status(200).json({
+    message: "Success Header Parameter",
+    productId: id,
+    productName: name,
+  });
+});
+
 module.exports = router;
