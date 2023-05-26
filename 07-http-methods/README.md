@@ -20,7 +20,7 @@
 
 - DELETE method used for remove/ delete data.
 
-### **C R U D**
+# **C R U D**
 
 ### **C** = Create - _POST_
 
