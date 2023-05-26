@@ -1,4 +1,4 @@
-# **HTTP METHODS**
+# **07 - Lesson: HTTP Methods**
 
 ## `GET`
 

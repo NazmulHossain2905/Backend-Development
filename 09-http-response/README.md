@@ -1,4 +1,4 @@
-# **HTML RESPONSE**
+# **09 - Lesson: HTML response**
 
 #### We can send many type of response.
 
@@ -20,7 +20,7 @@ res.sendFile("path/index.html");
 ```javascript
 res.json({
   message: "This is JSON message",
-  success: false,
+  success: true,
   statusCode: 200,
 });
 ```
