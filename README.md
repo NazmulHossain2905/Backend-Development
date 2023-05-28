@@ -212,5 +212,43 @@ res.status(200);
 ```
 
 <!-- ############################################################# -->
-<!-- **07 - Lesson: HTTP Methods** -->
+<!-- **16 - Lesson: REST API Without DB** -->
+<!-- ############################################################# -->
+
+# **16 - Lesson: REST API Without Database**
+
+### **Routes**
+
+**Base Url**
+
+```javascript
+http://localhost:4000
+```
+
+### **All Methods**
+
+**GET** - Home route
+
+- http://localhost:4000/
+
+**GET** - Get all users
+
+- /api/users
+
+**POST** - Create a new user
+
+- /api/users
+
+**PATCH** - Update a user
+
+- /api/users/:id
+
+**DELETE** - Delete a user
+
+- /api/users/:id
+
+### _CRUD APPLICATION_
+
+<!-- ############################################################# -->
+<!-- **16 - Lesson: REST API Without DB** -->
 <!-- ############################################################# -->

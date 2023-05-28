@@ -1,4 +1,4 @@
-# **16 - Lesson: REST API Without DB**
+# **16 - Lesson: REST API Without Database**
 
 ### **Routes**
 
