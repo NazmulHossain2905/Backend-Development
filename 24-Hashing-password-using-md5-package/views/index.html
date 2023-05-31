@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mongo DB</title>
+    <style>
+      h1 {
+        font-size: 36px;
+        color: #fff;
+        font-weight: bolder;
+        background-color: blueviolet;
+        padding: 15px;
+      }
+      h3 {
+        color: blueviolet;
+        text-decoration: underline;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+      ul li {
+        margin: 10px;
+      }
+
+      .method {
+        background-color: blueviolet;
+        border-radius: 4px;
+        color: #fff;
+        padding: 0 10px;
+        font-weight: bold;
+        margin-right: 5px;
+      }
+
+      .route {
+        color: blueviolet;
+        background-color: aliceblue;
+        /* text-decoration: underline; */
+        padding: 0 12px;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hashing password using md5 package!</h1>
+
+    <h3>All Routes</h3>
+
+    <p>
+      <span class="method">Base url:</span>
+      <span class="route">http://localhost:4000</span>
+    </p>
+
+    <div>
+      <ul>
+        <li><span class="method">GET:</span><span class="route"> /</span></li>
+        <li>
+          <span class="method">POST:</span
+          ><span class="route"> /api/users</span>
+        </li>
+        <li>
+          <span class="method">GET:</span><span class="route"> /api/users</span>
+        </li>
+        <li>
+          <span class="method">GET:</span
+          ><span class="route"> /api/users/:id</span>
+        </li>
+        <li>
+          <span class="method">PATCH:</span
+          ><span class="route"> /api/users/:id</span>
+        </li>
+        <li>
+          <span class="method">DELETE:</span
+          ><span class="route"> /api/users/:id</span>
+        </li>
+      </ul>
+    </div>
+    <hr />
+    <div>
+      <ul>
+        <li><span class="method">GET:</span><span class="route"> /</span></li>
+        <li>
+          <span class="method">POST:</span
+          ><span class="route"> /api/posts</span>
+        </li>
+        <li>
+          <span class="method">GET:</span><span class="route"> /api/posts</span>
+        </li>
+        <li>
+          <span class="method">GET:</span
+          ><span class="route"> /api/posts/:id</span>
+        </li>
+        <li>
+          <span class="method">PATCH:</span
+          ><span class="route"> /api/posts/:id</span>
+        </li>
+        <li>
+          <span class="method">DELETE:</span
+          ><span class="route"> /api/posts/:id</span>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
